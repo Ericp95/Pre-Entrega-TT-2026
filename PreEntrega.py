@@ -1,1 +1,1 @@
-print("\n" "*****MENU*****")
+productos=[]
