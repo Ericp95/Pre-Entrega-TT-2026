@@ -8,4 +8,5 @@ while True :
 
     match opciones:
         case 1:
+            print("\n Gracias por usar nuestro menu")
             break
