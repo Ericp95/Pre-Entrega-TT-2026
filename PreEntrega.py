@@ -14,7 +14,7 @@ while True :
                 print("Error nombre de producto incorrecto")
                 continue
             else :
-            productos.append(nombre)
+               productos.append(nombre)
         case "5":
             print("\n Gracias por usar nuestro menu")
             break
