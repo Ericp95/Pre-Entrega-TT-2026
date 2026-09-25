@@ -9,6 +9,8 @@ while True :
 
     match opciones:
         case "1":
+            nombre=input("ingrese nombre del producto ")
+            productos.append(nombre)
         case "5":
             print("\n Gracias por usar nuestro menu")
             break
