@@ -11,6 +11,8 @@ while True :
         case "1":
             nombre=input("ingrese nombre del producto ")
             if nombre == "":
+                print("Error nombre de producto incorrecto")
+                continue
             productos.append(nombre)
         case "5":
             print("\n Gracias por usar nuestro menu")
