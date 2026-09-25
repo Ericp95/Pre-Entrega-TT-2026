@@ -9,7 +9,7 @@ while True :
 
     match opciones:
         case "1":
-            nombre=input("ingrese nombre del producto ")
+            nombre=input("\n ingrese nombre del producto ")
             if nombre == "":
                 print("Error nombre de producto incorrecto")
                 continue
