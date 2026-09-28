@@ -23,7 +23,7 @@ while True :
                 productos.remove(nombre)
                 print(f"\n el producto: {nombre} borrado correctamente")
             else :
-                
+                print("Error nombre de producto inexistente intente nuevamente")
         case "5":
             print("\n Gracias por usar nuestro menu")
             break
