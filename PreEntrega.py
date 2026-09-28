@@ -17,6 +17,7 @@ while True :
             else :
                productos.append(nombre)
                print(f"\n el producto: {nombre} agregado correctamente")
+        case "3":
         case "5":
             print("\n Gracias por usar nuestro menu")
             break
