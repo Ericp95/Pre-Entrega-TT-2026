@@ -19,6 +19,7 @@ while True :
                print(f"\n el producto: {nombre} agregado correctamente")
         case "3":
             nombre=input("\n ingrese nombre del producto que desea borrar ")
+            if nombre == "nombre":
         case "5":
             print("\n Gracias por usar nuestro menu")
             break
