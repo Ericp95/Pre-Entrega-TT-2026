@@ -4,6 +4,7 @@ while True :
 
     print("\n" "*****MENU*****")
     print("\n" "1_Ingrese productos")
+    print("\n" "2_Borrar producto")
 
     opciones=input("\n""Seleccione una Opcion, 5-salir")
 
