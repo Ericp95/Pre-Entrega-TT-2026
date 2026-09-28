@@ -20,6 +20,7 @@ while True :
         case "3":
             nombre=input("\n ingrese nombre del producto que desea borrar ")
             if nombre == "nombre":
+                productos.remove(nombre)
         case "5":
             print("\n Gracias por usar nuestro menu")
             break
