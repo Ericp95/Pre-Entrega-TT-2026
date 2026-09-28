@@ -16,7 +16,7 @@ while True :
                 continue
             else :
                productos.append(nombre)
-               print(f"\n el producto: {nombre} agregado correctamente")
+               print(f"\n el producto: {nombre.capitalize()} agregado correctamente")
         case "3":
             nombre=input("\n ingrese nombre del producto que desea borrar ")
             if nombre == "nombre":
