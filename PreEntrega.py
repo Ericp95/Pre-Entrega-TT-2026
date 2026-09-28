@@ -5,8 +5,10 @@ while True :
     print("\n" "*****MENU*****")
     print("\n" "1_Ingrese productos")
     print("\n" "2_Borrar producto")
+    print("\n" "5_Salir")
 
-    opciones=input("\n""Seleccione una Opcion, 5-salir")
+
+    opciones=input("\n""Seleccione una Opcion")
 
     match opciones:
         case "1":
