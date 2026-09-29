@@ -16,7 +16,7 @@ while True :
             nombre=input("\n ingrese nombre del producto ")
             if nombre == "":
                 print("Error nombre de producto incorrecto")
-                continue
+                #continue
             else :
                productos.append(nombre)
                print(f"\n el producto: {nombre.capitalize()} agregado correctamente")
@@ -28,9 +28,10 @@ while True :
             else :
                 print("Error nombre de producto inexistente intente nuevamente")
         case "3":
-            print("***La lista de los productos en stock**")
-            for i in productos:
-                print(productos)
+            
+            for producto in range(len(productos)):
+                print(f"La lista de productos: {productos}")
+            
         case "5":
             print("\n Gracias por usar nuestro menu")
             break
