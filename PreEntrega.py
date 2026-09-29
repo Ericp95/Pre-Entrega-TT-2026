@@ -27,6 +27,7 @@ while True :
                 print(f"\n el producto: {nombre} borrado correctamente")
             else :
                 print("Error nombre de producto inexistente intente nuevamente")
+        case "3":
         case "5":
             print("\n Gracias por usar nuestro menu")
             break
