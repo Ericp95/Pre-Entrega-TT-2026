@@ -29,7 +29,7 @@ while True :
                 print("Error nombre de producto inexistente intente nuevamente")
         case "3":
             print("***La lista de los productos en stock**")
-            for nombres in productos:
+            for i in productos:
                 print(productos)
         case "5":
             print("\n Gracias por usar nuestro menu")
