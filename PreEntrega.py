@@ -5,6 +5,7 @@ while True :
     print("\n" "*****MENU*****")
     print("\n" "1_Ingrese productos")
     print("\n" "2_Borrar producto")
+    print("\n" "3_Lista de Productos")
     print("\n" "5_Salir")
 
 
