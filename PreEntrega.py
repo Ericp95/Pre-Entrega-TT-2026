@@ -28,9 +28,9 @@ while True :
             else :
                 print("Error nombre de producto inexistente intente nuevamente")
         case "3":
-            
-            for producto in range(len(productos)):
-                print(f"La lista de productos: {productos}")
+            print("*****Listado de Productos*****")
+            for producto in productos:
+             print(producto)
             
         case "5":
             print("\n Gracias por usar nuestro menu")
