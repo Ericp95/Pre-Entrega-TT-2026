@@ -28,6 +28,7 @@ while True :
             else :
                 print("Error nombre de producto inexistente intente nuevamente")
         case "3":
+            print("***La lista de los productos en stock**")
             for nombres in productos:
                 print(productos)
         case "5":
