@@ -35,6 +35,7 @@ while True :
         case "4":
             nombre=input("ingrese nombre de producto a buscar")
             if nombre in productos:
+                print(f"el producto con el nombre: {nombre}, esta en stock")
             
         case "5":
             print("\n Gracias por usar nuestro menu")
