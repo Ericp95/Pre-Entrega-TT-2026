@@ -8,6 +8,7 @@ while True :
     print("\n" "3_Lista de Productos")
     print("\n" "4_Busqueda de producto")
     print("\n" "5_Salir")
+    print("\n" "**********")
 
 
     opciones=input("\n""Seleccione una Opcion")
