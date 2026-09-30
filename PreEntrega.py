@@ -30,15 +30,15 @@ while True :
             else :
                 print("Error nombre de producto inexistente intente nuevamente")
         case "3":
-            print("*****Listado de Productos*****")
+            print("\n *****Listado de Productos*****")
             for producto in productos:
              print(producto)
         case "4":
             nombre=input("ingrese nombre de producto a buscar")
             if nombre in productos:
-                print(f"el producto con el nombre: {nombre}, esta en stock")
+                print(f"\n el producto con el nombre: {nombre}, esta en stock")
             else:
-                print("el producto no esta en stock")
+                print("\n el producto no esta en stock")
             
         case "5":
             print("\n Gracias por usar nuestro menu")
