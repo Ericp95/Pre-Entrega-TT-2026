@@ -32,6 +32,7 @@ while True :
             print("*****Listado de Productos*****")
             for producto in productos:
              print(producto)
+        case "4":
             
         case "5":
             print("\n Gracias por usar nuestro menu")
