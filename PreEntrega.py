@@ -33,6 +33,7 @@ while True :
             for producto in productos:
              print(producto)
         case "4":
+            nombre=input("ingrese nombre de producto a buscar")
             
         case "5":
             print("\n Gracias por usar nuestro menu")
