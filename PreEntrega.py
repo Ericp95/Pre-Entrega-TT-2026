@@ -44,6 +44,7 @@ while True :
                 print(f"\n el producto con el nombre: {nombre.title()}, esta en stock")
             else:
                 print("\n el producto no esta en stock")
+            print("\n" "*************")
             
         case "5":
             print("\n" "*************")
