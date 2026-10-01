@@ -35,6 +35,7 @@ while True :
             print("\n *****Listado de Productos*****")
             for producto in productos:
              print(producto)
+            print("\n" "*************")
         case "4":
             print("\n" "*************")
             nombre=input("\n ingrese nombre de producto a buscar")
