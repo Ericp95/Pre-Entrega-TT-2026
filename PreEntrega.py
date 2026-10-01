@@ -15,6 +15,7 @@ while True :
 
     match opciones:
         case "1":
+            print("\n" "*************")
             nombre=input("\n ingrese nombre del producto ")
             if nombre == "":
                 print("Error nombre de producto incorrecto")
