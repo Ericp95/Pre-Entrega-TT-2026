@@ -36,6 +36,7 @@ while True :
             for producto in productos:
              print(producto)
         case "4":
+            print("\n" "*************")
             nombre=input("\n ingrese nombre de producto a buscar")
             if nombre in productos:
                 print(f"\n el producto con el nombre: {nombre}, esta en stock")
