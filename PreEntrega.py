@@ -18,7 +18,7 @@ while True :
             print("\n" "*************")
             nombre=input("\n ingrese nombre del producto ")
             if nombre == "":
-                print("Error nombre de producto incorrecto")
+                print("\n Error nombre de producto incorrecto")
                 #continue
             else :
                productos.append(nombre)
