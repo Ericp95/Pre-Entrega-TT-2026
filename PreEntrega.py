@@ -29,6 +29,7 @@ while True :
             if nombre in productos:
                 productos.remove(nombre)
                 print(f"\n el producto: {nombre.capitalize()} borrado correctamente")
+                print("\n" "*************")
             else :
                 print("Error nombre de producto inexistente intente nuevamente")
         case "3":
