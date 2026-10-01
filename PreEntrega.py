@@ -22,13 +22,13 @@ while True :
                 #continue
             else :
                productos.append(nombre)
-               print(f"\n el producto: {nombre.capitalize()} agregado correctamente")
+               print(f"\n el producto: {nombre.title()} agregado correctamente")
         case "2":
             print("\n" "*************")
             nombre=input("\n ingrese nombre del producto que desea borrar ")
             if nombre in productos:
                 productos.remove(nombre)
-                print(f"\n el producto: {nombre} borrado correctamente")
+                print(f"\n el producto: {nombre.capitalize()} borrado correctamente")
             else :
                 print("Error nombre de producto inexistente intente nuevamente")
         case "3":
@@ -40,7 +40,7 @@ while True :
             print("\n" "*************")
             nombre=input("\n ingrese nombre de producto a buscar")
             if nombre in productos:
-                print(f"\n el producto con el nombre: {nombre}, esta en stock")
+                print(f"\n el producto con el nombre: {nombre.title()}, esta en stock")
             else:
                 print("\n el producto no esta en stock")
             
