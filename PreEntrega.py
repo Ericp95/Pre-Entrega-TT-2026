@@ -34,7 +34,7 @@ while True :
         case "3":
             print("\n *****Listado de Productos*****")
             for producto in productos:
-             print(producto)
+             print(producto.title())
             print("\n" "*************")
         case "4":
             print("\n" "*************")
