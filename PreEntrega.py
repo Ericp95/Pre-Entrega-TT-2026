@@ -44,5 +44,7 @@ while True :
                 print("\n el producto no esta en stock")
             
         case "5":
+            print("\n" "*************")
             print("\n Gracias por usar nuestro menu")
+            print("\n" "*************")
             break
